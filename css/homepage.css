@@ -1,0 +1,409 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: #4F0E0E;
+    padding: 30px;
+   
+}
+
+
+/* SECTION1 */
+
+#header{
+    background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    animation: slide 30s infinite;
+}
+
+@keyframes slide {
+    0%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    20%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    20.01%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main2.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    40%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main2.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    40.01%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main3.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    60%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main3.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    60.01%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main4.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    80%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main4.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    80.01%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main5.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.80),rgba(0,0,0,0.80)),url("../images/loginpage/main5.jpeg");
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+
+/* NAVBAR */
+.navbar{
+    padding: 20px;
+}
+
+/* MAIN CONTEXT*/
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10em;
+    color: white;
+    
+}
+.main h1{
+    font-size: 5em;
+    font-weight: 700;
+    
+}
+.main h2{
+    font: 3em;
+}
+.main p{
+    font-size: 1em;
+}
+
+/* MAIN CONTEXT buttons*/
+
+.btn-login{
+    min-width: 10em;
+    margin: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    background: #6b1500;
+    border:3px #6b1500 solid;
+    color: goldenrod;
+    font-weight:500;
+    box-shadow: inset 0 0 0 0 #4b1002;
+    transition: ease-in 0.2s;
+    
+    
+    
+}
+.btn-login:hover{
+    box-shadow: inset 10em 0 0 0 #4b1002;
+    border:3px #4b1002 solid;
+
+}
+.btn-abt-us{
+    min-width: 10em;
+    margin: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    background: none;
+    border:3px goldenrod solid;
+    color:goldenrod;
+    font-weight:500;
+    box-shadow: inset 0 0 0 0 #4b1002;
+    transition: ease-in 0.2s;
+
+
+}
+.btn-abt-us:hover{
+    box-shadow: inset 10em 0 0 0 #4b1002;
+    border:3px #4b1002 solid;
+    
+
+}
+
+/* LOGIN MODAL */
+.modal-header{
+    background-color: #6b1500;
+
+}
+.modal-body{
+    color: black;
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalbutton{
+    min-width: 10em;
+    margin: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    background: #6b1500;
+    border:3px #6b1500 solid;
+    color: goldenrod;
+    font-weight:500;
+    box-shadow: inset 0 0 0 0 #4b1002;
+    transition: ease-in 0.2s;
+}
+.modalbutton:hover{
+    box-shadow: inset 10em 0 0 0 #4b1002;
+    border:3px #4b1002 solid;
+
+}
+
+/* SECTION2 */
+
+#section2{
+    min-height: 100vh;
+    background-color: white;
+    
+
+}
+
+.main2{
+    min-height: 5vh;
+    background-image: linear-gradient(rgba(0,0,0,0.89),rgba(0,0,0,0.89)),url("../images/loginpage/header2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 1em 5em;
+    
+    
+    
+}
+.main2 h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.884);
+    text-align: center;
+    margin: 10px 0 ;
+}
+.main2 p{
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.719);
+}
+.main3{
+    
+    padding: 1em 5em;
+
+}
+
+.main3 h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0 ;
+    text-align: center;
+    
+}
+
+
+.card{
+    box-shadow: 0 2px 5px black;
+    max-width: 100%;
+    min-height: 20vh;
+    margin: 1em;
+}
+.card-body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.card-link{
+    color:black;
+}
+
+
+
+
+
+/* SECTION3 */
+/* PVMO */
+/* Vision,Mission,Philo */
+#pvm{
+    min-height: 100vh;
+    
+    
+}
+#pvm h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0 ;
+    text-align: center;
+
+}
+#pvm p{
+    line-height: 2em;
+    font-size: 1em;
+}
+.pvmo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 5em;
+    
+    
+
+}
+.pvmo-title h1{
+    
+    font-size: 1em;
+}
+.vision{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/vision.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 2em;
+    margin:  2em;
+    min-height: 30vh;
+    box-shadow: 0 5px 15px black;
+    border-radius: 5px;
+   
+}
+
+.mission{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/mission.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 2em;
+    margin:  2em;
+    min-height: 30vh;
+    box-shadow: 0 5px 15px black;
+    border-radius: 5px;
+    
+}
+.philo{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/philo.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 2em;
+    margin:  2em;
+    min-height: 40vh;
+    box-shadow: 0 5px 15px black;
+    border-radius: 5px;
+    
+}
+/* OBJECTIVES */
+#objectives{
+    min-height: 100vh;
+}
+#objectives h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0 ;
+    text-align: center;
+
+}
+#objectives li{
+    line-height: 3em;
+}
+.objectives{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/pvmo/objectives.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 2em;
+    margin:  2em;
+    min-height: 80vh;
+    box-shadow: 0 5px 15px black;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:580px) {
+    .main{
+        padding: 10em 5em;
+        text-align: center;
+      
+        
+    }
+    .main h1{
+        font-size:2.5em;
+        font-weight: 700;
+        
+    }
+    .main h2{
+        font: 1em;
+    }
+    .main p{
+        font-size: 13px;
+    }
+    .main3{
+        padding: 1em ;
+
+    }
+    
+}
